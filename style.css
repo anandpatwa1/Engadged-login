@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* border: 1px solid red; */
+}
+
+.mainContainer{
+    background-image: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 99.4vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.signIn{
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.signIn img{
+    height: 23px;
+    MARGIN: 45PX;
+    
+}
+h3{
+    font-size: 18px;
+    margin-bottom: 85px;
+}
+form{
+    background-color: rgb(255, 255, 255);
+    width: 75%;
+    display: flex;
+text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 285px;
+    margin-bottom: 44px;
+}
+form input{
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #bababa;
+}
+form input:focus{
+    border: none;
+}
+form button{
+    border-radius: 2px;
+    height: 40px;
+    background-color: #0078b0c5;
+    color: white;
+    border: none;
+    transition: all 0.2s ease-in-out;
+}
+form button:hover{
+    background-color: #006696;
+}
+form div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box input{
+    margin: 5px;
+    height: 23px;
+    background: none;
+    color: hsla(0, 0%, 100%, 0.95);
+    background: #0d0f12;
+    border: 1px solid hsla(0,0%,100%,.3);
+    width: 23px;
+}
+.box label{
+    color: #006696;
+    font-size: 16px;
+    width: 115px;
+
+}
+.box a{
+    color: #006696;
+    font-size: 16px;
+    width: 477px;
+
+}
+
+.acc{
+    height: 35px;
+    width: 100%;
+    background: none;
+    color: #3399CC;
+   border: 1px solid #3399CC;
+    transition: all 0.2s ease-in-out;
+}
+.acc:hover{
+    background: rgba(176, 194, 214, 0.25);
+}
+form p{
+    /* background: rgb(210, 163, 163); */
+    font-size: 13px;
+    font-weight: 100;
+}
+.googleBtn{
+    background: none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-size: 16px;
+    border: 1px solid #bababa;
+}
+.terms{
+    display: flex;
+}
+.terms a{
+    text-decoration: none;
+    color: #3399CC;
+    padding: 0px 2px;
+    font-size: 10px;
+}
+.terms p{
+    font-size: 10px;
+
+}
+
+
+
+.img img{
+    width: 75%;
+}
+@media(max-width:768px){
+    .img{
+        display: none;
+    }
+    .signIn{
+        width: 100%;
+    }
+}
